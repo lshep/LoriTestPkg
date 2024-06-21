@@ -1,0 +1,26 @@
+%\VignetteIndexEntry{test}
+%\VignetteKeywords{test}
+%\VignettePackage{test}
+\documentclass{article}
+
+\title{An Introduction to the spbtest5 Package}
+\author{Lori Shepherd}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+A test package 
+
+<<eval=TRUE>>=
+# workflow and data experiment get 4800 sec (80 min)
+Sys.sleep(1)
+trueTest <- T
+temp <- system("ls", intern=TRUE)
+@ 
+
+\end{document}

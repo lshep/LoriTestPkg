@@ -1,0 +1,16 @@
+Package: spbtest5
+Title: Test Single Package Builder
+Version: 0.99.2
+Authors@R: c(person("Lori", "Shepherd",
+        email = "Lori.Shepherd@roswellpark.org",
+        role = c("aut", "cre")),
+    person("Martin", "Morgan", role="ctb"))
+Description: What the package does (one paragraph).
+Maintainer: Lori Shepherd <Lori.Shepherd@roswellpark.org>
+Author: Lori Shepherd [aut]
+License: Artistic-2.0
+VignetteBuilder: knitr
+Suggests: BiocStyle, knitr, GenomicRanges, rmarkdown, testthat
+RoxygenNote: 6.0.1
+BiocType: Random
+BiocType: book

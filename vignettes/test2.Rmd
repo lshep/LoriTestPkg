@@ -1,0 +1,23 @@
+---
+title: "BiocFileCache: Managing File Resources Across Sessions"
+author: Lori Shepherd
+output:
+  BiocStyle::html_document:
+    toc: true
+    toc_depth: 2
+vignette: >
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteIndexEntry{BiocFileCache: Managing File Resources Across Sessions}
+    %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(collapse=TRUE)
+```
+
+# Overview
+
+```{r}
+library(GenomicRanges)
+vl <- TRUE
+```
