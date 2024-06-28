@@ -1,4 +1,4 @@
-Package: spbtest5
+Package: LoriTestPkg
 Title: Test Single Package Builder
 Version: 0.99.2
 Authors@R: c(person("Lori", "Shepherd",
