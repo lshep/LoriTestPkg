@@ -1,6 +1,4 @@
-Package: LoriTestPkg
 Title: Test Single Package Builder
-Version: 0.99.2
 Authors@R: c(person("Lori", "Shepherd",
         email = "Lori.Shepherd@roswellpark.org",
         role = c("aut", "cre")),
